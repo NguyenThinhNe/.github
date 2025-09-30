@@ -2,6 +2,7 @@
 
 We'll cover the following
 + [Main Flow](#main-flow)
++ [System Requirement](#system-requirement)
 + [Flow Diagram](#flow-diagram)
 + [Database Design](#database-design)
 + [CI/CD Flow](#cicd-flow)
@@ -81,6 +82,18 @@ We'll cover the following
 + Hệ thống tự động cập nhật:
     + 🚘 VIN = Campaign Completed / Claim Submitted.
     + 📅 Lưu ngày & trung tâm thực hiện.
+
+## System Requirement
+We will focus on the following set of requirements while designing:
+#### Main Function
+##### For SC Technican:
+1. SC Technican should be able to login into system.
+2. SC Technican should be able to reset password by send a  request password change to admin
+3. SC Technican should be able to create a claim request.
+4. SC Technican should be able to see list of created claim request.
+5. SC Technican should be able to edit a created claim request (can edit if the status is pending).
+6. SC Technican should be able to see all work orders.
+7. SC Technican should be able to see all work orders by status (In-Queue, Working, Completed, Overdue). 
 
 ## Flow Diagram
 <img src="./Resources/Main_Flow.png" alt="Main_Flow">
