@@ -95,6 +95,21 @@ We will focus on the following set of requirements while designing:
 6. SC Technican should be able to see all work orders.
 7. SC Technican should be able to see all work orders by status (In-Queue, Working, Completed, Overdue). 
 
+For SC Staff:
+1. SC Staff should be able to login into system.
+2. SC Staff should be able to reset password by sending a request password change to admin
+3. SC Staff should be able to review claim requests.
+4. SC Staff should be able to view all claim requests.
+5. SC Staff should be able to view all technicians in the system with their work status.
+6. SC Staff should be able to assign workers to do the work ordered.
+7. SC Staff should be able to view the monthly costs for the services in the center.
+8. SC Staff should be able to view their profile.
+9. SC Staff should be able to view a list of warranty report.
+
+For EVM Staff:
+1. EVM Staff should be able to login into system.
+2. EVM Staff should be able to reset password by sending a request password change to admin.
+
 ## Flow Diagram
 <img src="./Resources/Main_Flow.png" alt="Main_Flow">
 <img src="./Resources/Detail_Flow.png" alt="Detail_Flow">
