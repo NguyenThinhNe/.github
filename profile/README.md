@@ -93,9 +93,15 @@ We will focus on the following set of requirements while designing:
 4. SC Technican should be able to see list of created claim request.
 5. SC Technican should be able to edit a created claim request (can edit if the status is pending).
 6. SC Technican should be able to see all work orders.
-7. SC Technican should be able to see all work orders by status (In-Queue, Working, Completed, Overdue). 
+7. SC Technican should be able to list work orders by status (Pending, In Progress, Completed, Overdue). 
+8. SC Techincian should be able to list work by by priority (High, Medium, Low).
+9. SC Technician should be able to search work orders by orderID/VehicleName
+10. SC Techician should be able to see no result model if no search result found
+11. SC Technicican should be able to see details of a work order (Vehicle information, Customer information, Issue Details, Work Details, Schedule, Actions)
+12. SC Technician should be able to set action of an work detail (Start working, Complete work)
+13. SC Techician should be able to see their basic profile information
 
-For SC Staff:
+##### For SC Staff:
 1. SC Staff should be able to login into system.
 2. SC Staff should be able to reset password by sending a request password change to admin
 3. SC Staff should be able to review claim requests.
