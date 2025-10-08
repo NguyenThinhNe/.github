@@ -117,37 +117,38 @@ We will focus on the following set of requirements while designing:
 13. Sc Staff should be able to list all work reports by priority (High, Medium, Low).
 14. Sc Staff should be able to search work reports by orderID/VehicleName.
 15. Sc Staff should be able to see no result model if no search result found.
-16. Sc Staff should be able to view monthly revenue for the services in the center.
-17. Sc Staff should be able to list all work history/revenue by OrderId/VehicleName
-18. Sc Staff should be able to see warranty cost detail of an order.
-19. Sc Staff should be able to approved and export report cost of an completed work order.
-20. Sc Staff should be able to see their basic profile information.
+16. Sc Staff should be able to list all work history/revenue by OrderId/VehicleName
+17. Sc Staff should be able to see warranty cost detail of an order.
+18. Sc Staff should be able to approved and export report cost of an completed work order.
+19. Sc Staff should be able to see their basic profile information.
 
 ##### For EVM Staff:
 1. EVM Staff should be able to login into system.
 2. EVM Staff should be able to reset password by sending a request password change to admin.
+3. EVM Staff should be able to view monthly revenue for the services in the center.
 
 ## Flow Diagram
 <img src="./Resources/Main_Flow.png" alt="Main_Flow">
 <img src="./Resources/Detail_Flow.png" alt="Detail_Flow">
 
 ## Database Design
-Our system will have total 14 tables:
+Our system will have total 15 tables:
 
-+ SystemUser
-+ CustomerDetail
++ Users
++ Customer
 + CustomerVehicle
 + Campaign
 + CampaignType
++ ServiceCenter
 + WarrantyPolicy
 + WarrantyClaim
 + Report
-+ WarrantyRepair
-+ VehicleType
-+ Suppliers
-+ Parts
-+ PartSuppliers
++ ReportType
++ WorkOrder
 + VehicleParts
++ PartItem
++ Parts
++ Inventory
 <img src="./Resources/Database_Design.png" alt="Database_Design">
 
 ## CI/CD Flow
