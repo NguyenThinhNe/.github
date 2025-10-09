@@ -6,6 +6,7 @@ We'll cover the following
 + [Flow Diagram](#flow-diagram)
 + [Database Design](#database-design)
 + [CI/CD Flow](#cicd-flow)
++ [Github Workflow](github-workflow)
 
 ## Main Flow
 ### 🟢 Luồng 1: Bảo hành xe
@@ -154,3 +155,6 @@ Our system will have total 15 tables:
 ## CI/CD Flow
 <img src="./Resources/CICD_1.png" alt="CI/CD_Design_1">
 <img src="./Resources/CICD_2.png" alt="CI/CD_Design_2">
+
+## Github Workflow
+<img src="./Resources/Github_Workflow.png" alt="Github workflow">
