@@ -12,7 +12,7 @@ ELV Warranty Management System helps local service staff handle warranty request
 
 <img src="./Resources/logo.png" alt="logo">
 
-## System Requirement
+## 🔍 System Requirement
 We will focus on the following set of requirements while designing:
 #### Main Function
 ##### For SC Technican:
@@ -80,7 +80,7 @@ We will focus on the following set of requirements while designing:
 + Jenkins - Continuous Integration
 + ArgoCD - Continuous Delivery
 
-## Database Design
+## 🎨 Database Design
 Our system will have total 15 Entities:
 
 + Users: User management and authorization
@@ -102,7 +102,7 @@ Our system will have total 15 Entities:
 ## Team Size
 <img src="./Resources/Github_Workflow.png" alt="Github workflow">
 
-## Document References
+## 📚 Document References
 ### DevOps & Deployment
 + [🚀 CI/CD Pipeline](CICD.md)
 ### Project Documentation
