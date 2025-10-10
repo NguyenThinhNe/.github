@@ -3,9 +3,12 @@
 We'll cover the following
 + [System Requirement](#system-requirement)
 + [Flow Diagram](#flow-diagram)
++ [Technology Stack](#technology-stack)
 + [Database Design](#database-design)
 + [Team Size](#team-size)
 + [Document References](#document-references)
+
+ELV Warranty Management System helps local service staff handle warranty requests efficiently and transparently. It allows them to record customer issues, verify warranty eligibility, and submit claims directly to the manufacturer. The system tracks the status of each request—from submission and inspection to approval and replacement—ensuring quick resolution and accurate documentation. By digitizing the entire process, local staff can reduce paperwork, improve communication with the manufacturer, and deliver faster, more reliable service to customers.
 
 <img src="./Resources/logo.png" alt="logo">
 
@@ -57,24 +60,44 @@ We will focus on the following set of requirements while designing:
 <!-- <img src="./Resources/Main_Flow.png" alt="Main_Flow">
 <img src="./Resources/Detail_Flow.png" alt="Detail_Flow"> -->
 
+## 🛠️ Technology Stack
+### Backend
++ .NET 8.0 - Main Framework
++ ASP.NET Core - Web API framework
++ Entity Framework Core - ORM
++ Postgres - Database
++ JWT Authentication - Security
++ Postman - API documentation
+
+### Frontend
++ React 19 - UI library
++ Vite - Build tool
+
+### DevOps
++ Docker - Containerization
++ Kubernetes - Container Orchestration
++ Nginx Proxy Manager - Reverse proxy
++ Jenkins - Continuous Integration
++ ArgoCD - Continuous Delivery
+
 ## Database Design
 Our system will have total 15 Entities:
 
-+ Users
-+ Customer
-+ CustomerVehicle
-+ Campaign
-+ CampaignType
-+ ServiceCenter
-+ WarrantyPolicy
-+ WarrantyClaim
-+ Report
-+ ReportType
-+ WorkOrder
-+ VehicleParts
-+ PartItem
-+ Parts
-+ Inventory
++ Users: User management and authorization
++ Customer: Customer information
++ CustomerVehicle: Customer vehicle information
++ Campaign: 
++ CampaignType: 
++ ServiceCenter: 
++ WarrantyPolicy: Warranty policy for each part
++ WarrantyClaim: 
++ Report: 
++ ReportType: Type of warranty report
++ WorkOrder: Tasks information for SC Technician
++ VehicleParts: 
++ PartItem: Parts detail information
++ Parts: Parts information
++ Inventory: Parts management
 
 ## Team Size
 <img src="./Resources/Github_Workflow.png" alt="Github workflow">
