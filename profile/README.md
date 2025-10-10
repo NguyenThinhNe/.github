@@ -1,13 +1,14 @@
 # 📑 Warranty Management System
 
 We'll cover the following
++ [Project Overview & Goals](#)
 + [System Requirement](#system-requirement)
-+ [Flow Diagram](#flow-diagram)
++ [Team Roles & Responsibilities](#-team-roles--responsibilities)
 + [Technology Stack](#technology-stack)
 + [Database Design](#database-design)
-+ [Team Size](#team-size)
 + [Document References](#document-references)
 
+## 🎯 Project Overview & Goals
 ELV Warranty Management System helps local service staff handle warranty requests efficiently and transparently. It allows them to record customer issues, verify warranty eligibility, and submit claims directly to the manufacturer. The system tracks the status of each request—from submission and inspection to approval and replacement—ensuring quick resolution and accurate documentation. By digitizing the entire process, local staff can reduce paperwork, improve communication with the manufacturer, and deliver faster, more reliable service to customers.
 
 <img src="./Resources/logo.png" alt="logo">
@@ -56,7 +57,20 @@ We will focus on the following set of requirements while designing:
 2. EVM Staff should be able to reset password by sending a request password change to admin.
 3. EVM Staff should be able to view monthly revenue for the services in the center.
 
-## Flow Diagram
+## 🧑‍💻 Team Roles & Responsibilities
+### Team Structure
+| Role              | Name / Placeholder |
+| ------------------|:------------------:|
+| Back-End Dev      | Nguyễn Phước Thịnh |
+| Back-End Dev      | Trương Minh Nhật   |
+| Front-End Dev     | Nguyễn Việt Hùng   |
+| Front-End Dev     | Phạm Minh Ánh      |
+| Front-End Dev     | Hồ Tú Minh Triều   |
+
+### Github Workflow
+<img src="./Resources/Github_Workflow.png" alt="Github workflow">
+
+<!-- ## Flow Diagram -->
 <!-- <img src="./Resources/Main_Flow.png" alt="Main_Flow">
 <img src="./Resources/Detail_Flow.png" alt="Detail_Flow"> -->
 
@@ -72,6 +86,7 @@ We will focus on the following set of requirements while designing:
 ### Frontend
 + React 19 - UI library
 + Vite - Build tool
++ Phosphoricons - Icons library
 
 ### DevOps
 + Docker - Containerization
@@ -98,9 +113,6 @@ Our system will have total 15 Entities:
 + PartItem: Parts detail information
 + Parts: Parts information
 + Inventory: Parts management
-
-## Team Size
-<img src="./Resources/Github_Workflow.png" alt="Github workflow">
 
 ## 📚 Document References
 ### DevOps & Deployment
