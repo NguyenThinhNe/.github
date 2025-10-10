@@ -58,7 +58,7 @@ Goal:
 + Jenkins - Continuous Integration
 + ArgoCD - Continuous Delivery
 
-## System Architecture
+## 🏗️ System Architecture
 ```
 [ Frontend (React) ]
    ↓ REST API calls
@@ -69,7 +69,7 @@ Goal:
 [ File Storage (Local / S3 / MinIO) ]
 ```
 
-## 🔍 Warranty Workflow
+## 🌊 Warranty Workflow
 1. Local Staff logs a new warranty claim → fills in customer, vehicle, and defect details.
 2. Backend validates claim, assigns claim ID, stores data, and uploads related files.
 3. Manufacturer Reviewer checks eligibility and approves/rejects the request.
