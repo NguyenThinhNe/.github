@@ -5,6 +5,7 @@ We'll cover the following
 + [System Requirement](#system-requirement)
 + [Team Roles & Responsibilities](#-team-roles--responsibilities)
 + [Technology Stack](#technology-stack)
++ [System Architecture]()
 + [Database Design](#database-design)
 + [Document References](#document-references)
 
@@ -94,6 +95,17 @@ We will focus on the following set of requirements while designing:
 + Nginx Proxy Manager - Reverse proxy
 + Jenkins - Continuous Integration
 + ArgoCD - Continuous Delivery
+
+## System Architecture
+```
+[ Frontend (React) ]
+   ↓ REST API calls
+[ Backend (ASP.NET Core WebAPI) ]
+   ↓
+[ Database (PostgreSQL) ]
+   ↓
+[ File Storage (Local / S3 / MinIO) ]
+```
 
 ## 🎨 Database Design
 Our system will have total 15 Entities:
