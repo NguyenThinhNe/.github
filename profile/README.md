@@ -32,15 +32,14 @@ Goal:
 ### Github Workflow
 <img src="./Resources/Github_Workflow.png" alt="Github workflow">
 
-<!-- ## Flow Diagram -->
-<!-- <img src="./Resources/Main_Flow.png" alt="Main_Flow">
-<img src="./Resources/Detail_Flow.png" alt="Detail_Flow"> -->
-
 ## 🛠️ Technology Stack
 ### Backend
 + .NET 8.0 - Main Framework
 + ASP.NET Core - Web API framework
 + Entity Framework Core - ORM
++ Auto Mapper - Dependency Injection
++ NPGSQL - .NET data provider for PostgreSQL
++ BCrypt.NET - Securely hashing and Verifying passwords
 + Postgres - Database
 + JWT Authentication - Security
 + Postman - API documentation
