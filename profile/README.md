@@ -81,11 +81,11 @@ Our system will have total 15 Entities:
 + Users: User management and authorization
 + Customer: Customer information
 + CustomerVehicle: Customer vehicle information
-+ Campaign: 
-+ CampaignType: 
-+ ServiceCenter: 
++ Campaign: A voluntary, non-safety-related action, often for a technical update or a less serious issue. 
++ CampaignType: Recall/Service
++ ServiceCenter: A service center have many users
 + WarrantyPolicy: Warranty policy for each part
-+ WarrantyClaim: 
++ WarrantyClaim: Received claim vehicles
 + Report: A Claim/Campaign report
 + ReportType: Type of warranty report
 + WorkOrder: Tasks information for SC Technician
