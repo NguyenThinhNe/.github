@@ -54,6 +54,8 @@ Goal:
 + Docker - Containerization
 + Kubernetes - Container Orchestration
 + Nginx Proxy Manager - Reverse proxy
++ SonarQube - Code quality & Security reviews
++ Trivy - Vulnerability scanner for containers
 + Jenkins - Continuous Integration
 + ArgoCD - Continuous Delivery
 
