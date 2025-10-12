@@ -47,6 +47,7 @@ Goal:
 ### Frontend
 + React 19 - UI library
 + Vite - Build tool
++ React Router DOM - URL Mangement
 + Shadcn - Components UI
 + Phosphoricons - Icons library
 
