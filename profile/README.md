@@ -48,6 +48,7 @@ Goal:
 + React 19 - UI library
 + Vite - Build tool
 + React Router DOM - URL Mangement
++ Axios - Http Client for API calls
 + Shadcn - Components UI
 + Phosphoricons - Icons library
 
