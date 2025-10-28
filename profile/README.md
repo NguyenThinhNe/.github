@@ -51,6 +51,7 @@ Goal:
 + Axios - Http Client for API calls
 + Shadcn - Components UI
 + Phosphoricons - Icons library
++ UUID - Generate GUID
 
 ### DevOps
 + Docker - Containerization
